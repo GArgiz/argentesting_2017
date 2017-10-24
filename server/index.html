@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Argentesting 2017 - Wbdriverio Workshop</title>
+
+	<meta name="author" content="Gerardo Argiz" />
+	<meta name="description" content="Pagina de prueba para el workshop de Argentesting 2017" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+
+  <script>
+  function changeSobre(){
+    document.getElementById("content").innerHTML = "<h2>Sobre Argentesting</h2><p>Argentesting se forma a partir de la iniciativa conjunta de Nadia Cavalleri, Gustavo Terrera y Román Rodriguez, quienes habiendo recorrido cierto trayecto en la industria de las pruebas detectaron la oportunidad de armar el Primer Congreso Argentino de Testing.</p>";
+  }
+  </script>
+  <script>
+  function changeQuienes(){
+    document.getElementById("content").innerHTML = "<h2>¿Quiénes somos?</h2><p>Somos apasionados por el testing y anhelamos el crecimiento de esta actividad dentro de la industria. Estamos convencidos de que la mejor forma de crecer es en comunidad. Por eso generamos este espacio para intercambiar conocimientos y experiencias, para construir vínculos comerciales y profesionales y para fomentar un encuentro nacional e internacional de testers.</p>";
+  }
+  </script>
+
+
+</head>
+<body>
+
+  <div class="header-img">
+  	<img class="img-responsive" src="argen_image.png" height="200" width="1598" alt="">
+  </div>
+<div id="page">
+		<div id="logo">
+			<h1><a href="/" id="logoLink">Argentesting 2017</a></h1>
+		</div>
+		<div id="nav">
+			<ul>
+        <li><a href="#" onclick="changeSobre()">Home</a></li>
+        <li><a href="#" onclick="changeQuienes()">About</a></li>
+        <li><a href="form.html">Formulario</a></li>
+			</ul>
+		</div>
+		<div id="content">
+			<h2>Sobre Argentesting</h2>
+			<p>
+        Argentesting se forma a partir de la iniciativa conjunta de Nadia Cavalleri, Gustavo Terrera y Román Rodriguez, quienes habiendo recorrido cierto trayecto en la industria de las pruebas detectaron la oportunidad de armar el Primer Congreso Argentino de Testing.
+      </p>
+		</div>
+		<div id="footer">
+		</div>
+	</div>
+</body>
+</html>

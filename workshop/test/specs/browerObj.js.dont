@@ -1,0 +1,4 @@
+console.log("Browser desiredCapabilities");
+console.log(browser.desiredCapabilities);
+console.log("Browser Options");
+console.log(browser.options);
